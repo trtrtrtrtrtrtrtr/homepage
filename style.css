@@ -1,76 +1,85 @@
 body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-}
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
 
 .vonalasmenu {
-  width: 35px;
-  height: 5px;
-  background-color: black;
-  margin: 6px 0;
-}
+    width: 35px;
+    height: 5px;
+    background-color: black;
+    margin: 6px 0;
+  }
 
 .topmenu
- { background-color: #ff0000;
-  color: white;
-  border: 0.1px solid #ff0000;
-  margin: 1px;
-  padding: 15px;
-  font-family: "Open Sans", "sans-serif", "Helvetica Neue";
-  font-size: 15px;   
-  }
+   { background-color: #ff0000;
+    color: white;
+    border: 0.1px solid #ff0000;
+    margin: 1px;
+    padding: 15px;
+    font-family: "Open Sans", "sans-serif", "Helvetica Neue";
+    font-size: 15px;   
+    }
 
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-  }
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
 
 li {
-    display: inline;
-    margin: 10px;
-    color: white;
-  }
+      display: inline;
+      margin: 10px;
+      color: white;
+    }
 
 a:link, a:visited,  a:hover, a:active
-  {
-      color: white;
-      text-decoration: none;
-  }
+    {
+        color: white;
+        text-decoration: none;
+    }
 
 a:hover {
-    background-color: rgb(248, 153, 153);
-  } 
-  
+      background-color: rgb(248, 153, 153);
+    } 
+    
 .aublogosearch {color: #ff0000;
-              margin-left: 50px;
-              font-size: 20px;}
-  
+                margin-left: 50px;
+                font-size: 20px;}
+    
 a.aublogosearch:link {color:#ff0000;}
 a.aublogosearch:visited {color:#ff0000;}
 a.aublogosearch:hover {color:#ff0000;}
 a.aublogosearch:active {color:#ff0000;}
 
 .undertopmenuline {display: inline;
-                   margin: 12px;
-                  
-                 }
+                   margin: 10px;
+                   }
 
-.undertopmenu {
-background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/7c/Budapest_Festetics_Palota_Andr%C3%A1ssy_Egyetem.jpg/250px-Budapest_Festetics_Palota_Andr%C3%A1ssy_Egyetem.jpg");
-background-color: #f7f7f7;
+.katt {color: #ff0000;
+                    }
+        
+ a.katt:link {color:#ff0000;}
+ a.katt:visited {color:#ff0000;}
+ a.katt:hover {color:#1d1b1b;}
+ a.katt:active {color:#ff0000;}
 
-padding-top: 25px;
-padding-bottom: 48px;
-}
-  
-#txtbox {
-Width: 300px;
-height: 20px;
-}
+ h1, h5, .sucheinkatalog {text-align: center;
+     color: #ff0000 }
 
-.bigf {font-size: 21px;
-       font-weight: bold;
-       text-shadow: 8px 10px 15px  #08fafa;
-      }
-      
+.underimage {text-align: center;}
+ h2 {color:#ff0000;}
+
+ .bigf {margin-left: 53px;}
+
+ .eress {margin-left: 50px; 
+         padding: 10px;
+        font-family: Maven Pro, "Open Sans", "sans-serif", "Helvetica Neue";}   
+
+  h3 .katt {margin: 40px;
+            padding: 6px;}  
+
+  p {margin-bottom: 20px;
+  margin-left: 20px;
+  margin-right: 10px;}
+
+  div {margin-bottom: 20px;}
